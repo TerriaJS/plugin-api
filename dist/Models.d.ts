@@ -1,0 +1,11 @@
+export { MapItem } from "terriajs/lib/ModelMixins/MappableMixin";
+export { default as BoxDrawing } from "terriajs/lib/Models/BoxDrawing";
+export { default as CatalogMemberFactory } from "terriajs/lib/Models/Catalog/CatalogMemberFactory";
+export { default as CommonStrata } from "terriajs/lib/Models/Definition/CommonStrata";
+export { default as CreateModel } from "terriajs/lib/Models/Definition/CreateModel";
+export { default as Model } from "terriajs/lib/Models/Definition/Model";
+export { default as Terria } from "terriajs/lib/Models/Terria";
+export { default as UserDrawing } from "terriajs/lib/Models/UserDrawing";
+export { default as ViewerMode } from "terriajs/lib/Models/ViewerMode";
+export { default as ViewState } from "terriajs/lib/ReactViewModels/ViewState";
+export { default as MapNavigationItemController } from "terriajs/lib/ViewModels/MapNavigation/MapNavigationItemController";
