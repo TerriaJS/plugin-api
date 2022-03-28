@@ -6,6 +6,7 @@
   "license": "Apache-2.0",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
+  "prepublish": "tsc",
   "devDependencies": {
     "@types/styled-components": "^5.1.24",
     "prettier": "^2.6.1",
