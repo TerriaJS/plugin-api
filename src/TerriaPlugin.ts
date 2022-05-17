@@ -17,12 +17,14 @@ export interface TerriaPluginContext {
   viewState: ViewState;
   terria: Terria;
   workbench: Workbench;
+  overlays: Workbench;
 }
 
 export function createPluginContext(viewState: ViewState): TerriaPluginContext {
   return {
     viewState,
     terria: viewState.terria,
-    workbench: viewState.terria.workbench
+    workbench: viewState.terria.workbench,
+    overlays: viewState.terria.overlays
   };
 }
