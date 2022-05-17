@@ -10,7 +10,7 @@
   "devDependencies": {
     "@types/styled-components": "^5.1.24",
     "prettier": "^2.6.1",
-    "terriajs": "8.1.26",
+    "terriajs": "8.2.3",
     "typescript": "^3.9.4"
   }
 }
