@@ -37,3 +37,4 @@ import {
   runWorkflow
 } from "terriajs/lib/Models/Workflows/SelectableDimensionWorkflow";
 export { SelectableDimensionWorkflow, runWorkflow };
+export { default as TerriaError } from "terriajs/lib/Core/TerriaError";

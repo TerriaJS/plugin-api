@@ -7,10 +7,13 @@
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "prepare": "tsc",
+  "resolutions": {
+    "@types/react": "^17.0.3"
+  },
   "devDependencies": {
     "@types/styled-components": "^5.1.24",
     "prettier": "^2.6.1",
-    "terriajs": "8.2.4",
+    "terriajs": "8.2.6",
     "typescript": "^3.9.4"
   }
 }
