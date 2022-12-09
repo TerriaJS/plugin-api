@@ -13,7 +13,7 @@
   "devDependencies": {
     "@types/styled-components": "^5.1.24",
     "prettier": "^2.6.1",
-    "terriajs": "8.2.22",
+    "terriajs": "github:terriajs/terriajs#nanda-full",
     "typescript": "^3.9.4"
   }
 }
