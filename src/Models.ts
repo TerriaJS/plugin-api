@@ -8,7 +8,10 @@ export { default as CatalogMemberFactory } from "terriajs/lib/Models/Catalog/Cat
 export { default as Cesium } from "terriajs/lib/Models/Cesium";
 export { default as CommonStrata } from "terriajs/lib/Models/Definition/CommonStrata";
 export { default as CreateModel } from "terriajs/lib/Models/Definition/CreateModel";
-export { default as Model } from "terriajs/lib/Models/Definition/Model";
+export {
+  default as Model,
+  BaseModel
+} from "terriajs/lib/Models/Definition/Model";
 export { default as updateModelFromJson } from "terriajs/lib/Models/Definition/updateModelFromJson";
 export {
   SelectableDimensionButton,
@@ -31,13 +34,12 @@ export { default as Workbench } from "terriajs/lib/Models/Workbench";
 export { default as ViewState } from "terriajs/lib/ReactViewModels/ViewState";
 export { default as MapNavigationItemController } from "terriajs/lib/ViewModels/MapNavigation/MapNavigationItemController";
 export { SelectableDimensionWorkflow, runWorkflow };
-
 import {
   default as SelectableDimensionWorkflow,
   runWorkflow
 } from "terriajs/lib/Models/Workflows/SelectableDimensionWorkflow";
-
 export { default as HasLocalData } from "terriajs/lib/Models/HasLocalData";
+export { default as SplitItemReference } from "terriajs/lib/Models/Catalog/CatalogReferences/SplitItemReference";
 
 import * as MapToolbar from "terriajs/lib/ViewModels/MapNavigation/MapToolbar";
 export { MapToolbar };

@@ -4,6 +4,7 @@ export { default as CatalogMemberFactory } from "terriajs/lib/Models/Catalog/Cat
 export { default as Cesium } from "terriajs/lib/Models/Cesium";
 export { default as CommonStrata } from "terriajs/lib/Models/Definition/CommonStrata";
 export { default as CreateModel } from "terriajs/lib/Models/Definition/CreateModel";
+export { BaseModel } from "terriajs/lib/Models/Definition/Model";
 export { default as updateModelFromJson } from "terriajs/lib/Models/Definition/updateModelFromJson";
 export { default as Terria } from "terriajs/lib/Models/Terria";
 export { default as UserDrawing } from "terriajs/lib/Models/UserDrawing";
@@ -15,6 +16,7 @@ export { default as MapNavigationItemController } from "terriajs/lib/ViewModels/
 export { runWorkflow };
 import { runWorkflow } from "terriajs/lib/Models/Workflows/SelectableDimensionWorkflow";
 export { default as HasLocalData } from "terriajs/lib/Models/HasLocalData";
+export { default as SplitItemReference } from "terriajs/lib/Models/Catalog/CatalogReferences/SplitItemReference";
 import * as MapToolbar from "terriajs/lib/ViewModels/MapNavigation/MapToolbar";
 export { MapToolbar };
 import * as ViewingControlsMenu from "terriajs/lib/ViewModels/ViewingControlsMenu";

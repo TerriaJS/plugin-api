@@ -5,7 +5,7 @@ export { default as CatalogMemberFactory } from "terriajs/lib/Models/Catalog/Cat
 export { default as Cesium } from "terriajs/lib/Models/Cesium";
 export { default as CommonStrata } from "terriajs/lib/Models/Definition/CommonStrata";
 export { default as CreateModel } from "terriajs/lib/Models/Definition/CreateModel";
-export { default as Model } from "terriajs/lib/Models/Definition/Model";
+export { default as Model, BaseModel } from "terriajs/lib/Models/Definition/Model";
 export { default as updateModelFromJson } from "terriajs/lib/Models/Definition/updateModelFromJson";
 export { SelectableDimensionButton, SelectableDimensionCheckbox, SelectableDimensionCheckboxGroup, SelectableDimensionColor, SelectableDimensionEnum, SelectableDimensionGroup, SelectableDimensionNumeric, SelectableDimensionText } from "terriajs/lib/Models/SelectableDimensions/SelectableDimensions";
 export { default as Terria } from "terriajs/lib/Models/Terria";
@@ -18,6 +18,7 @@ export { default as MapNavigationItemController } from "terriajs/lib/ViewModels/
 export { SelectableDimensionWorkflow, runWorkflow };
 import { default as SelectableDimensionWorkflow, runWorkflow } from "terriajs/lib/Models/Workflows/SelectableDimensionWorkflow";
 export { default as HasLocalData } from "terriajs/lib/Models/HasLocalData";
+export { default as SplitItemReference } from "terriajs/lib/Models/Catalog/CatalogReferences/SplitItemReference";
 import * as MapToolbar from "terriajs/lib/ViewModels/MapNavigation/MapToolbar";
 export { MapToolbar };
 import * as ViewingControlsMenu from "terriajs/lib/ViewModels/ViewingControlsMenu";

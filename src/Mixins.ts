@@ -6,4 +6,5 @@ export {
   GltfTransformationJson
 } from "terriajs/lib/ModelMixins/GltfMixin";
 export { default as MappableMixin } from "terriajs/lib/ModelMixins/MappableMixin";
+export { default as ReferenceMixin } from "terriajs/lib/ModelMixins/ReferenceMixin";
 export { default as TableMixin } from "terriajs/lib/ModelMixins/TableMixin";
