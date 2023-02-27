@@ -40,7 +40,6 @@ import {
   default as SelectableDimensionWorkflow,
   runWorkflow
 } from "terriajs/lib/Models/Workflows/SelectableDimensionWorkflow";
-export { UrlToCatalogMemberMapping } from "terriajs/lib/Models/Catalog/CatalogReferences/UrlReference";
 
 
 import * as MapToolbar from "terriajs/lib/ViewModels/MapNavigation/MapToolbar";
