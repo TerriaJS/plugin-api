@@ -13,7 +13,7 @@
   "devDependencies": {
     "@types/styled-components": "^5.1.24",
     "prettier": "^2.6.1",
-    "terriajs": "8.2.26",
+    "terriajs": "terriajs/terriajs#26e17abee9b36dec15d332fc2baae7380c40a6c0",
     "typescript": "^3.9.4"
   },
   "scripts": {
