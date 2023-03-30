@@ -1,6 +1,6 @@
 {
   "name": "terriajs-plugin-api",
-  "version": "0.0.1-alpha.9",
+  "version": "0.0.1-alpha.10",
   "description": "An (experimental) API for writing plugins for terriajs.",
   "repository": "https://github.com/terriajs/plugin-api",
   "license": "Apache-2.0",
@@ -13,7 +13,7 @@
   "devDependencies": {
     "@types/styled-components": "^5.1.24",
     "prettier": "^2.6.1",
-    "terriajs": "8.2.23",
+    "terriajs": "8.2.26",
     "typescript": "^3.9.4"
   },
   "scripts": {
