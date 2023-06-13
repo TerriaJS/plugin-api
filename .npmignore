@@ -1,3 +1,6 @@
 src/
 yarn-error.log
 yarn.lock
+
+.envrc
+default.nix
