@@ -1,1 +1,1 @@
-export { useViewState } from "terriajs/lib/ReactViews/StandardUserInterface/ViewStateContext";
+export { useViewState } from "terriajs/lib/ReactViews/Context/ViewStateContext";
