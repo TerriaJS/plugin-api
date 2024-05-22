@@ -5,6 +5,7 @@ export {
   ActionButtonProps
 } from "terriajs/lib/ReactViews/ActionBar/ActionButton";
 export { default as WorkflowPanel } from "terriajs/lib/ReactViews/Workflow/WorkflowPanel";
+export { default as DataPreviewMap } from "terriajs/lib/ReactViews/Preview/DataPreviewMap";
 export { default as AnimatedSpinnerIcon } from "terriajs/lib/Styled/AnimatedSpinnerIcon";
 export { default as Box, IBoxProps } from "terriajs/lib/Styled/Box";
 export { default as Button } from "terriajs/lib/Styled/Button";
